@@ -254,7 +254,7 @@ fun Modifier.draggingProgressOverlay(draggingProgress: DraggingProgress?) = comp
             Text(
                 draggingProgress.progressText,
                 fontSize = 26.sp,
-                fontWeight = FontWeight.Bold,
+                fontWeight = FontWeight.Medium,
                 style = TextStyle(
                     shadow = Shadow(
                         blurRadius = 8f,

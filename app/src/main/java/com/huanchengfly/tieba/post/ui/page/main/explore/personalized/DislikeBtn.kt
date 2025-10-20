@@ -94,7 +94,7 @@ fun Dislike(
                             .padding(vertical = 4.dp, horizontal = 8.dp),
                         color = ExtendedTheme.colors.onAccent,
                         textAlign = TextAlign.Center,
-                        fontWeight = FontWeight.Bold,
+                        fontWeight = FontWeight.Medium,
                         style = MaterialTheme.typography.subtitle2,
                     )
                 }
@@ -137,7 +137,7 @@ fun Dislike(
                                 .padding(vertical = 8.dp, horizontal = 16.dp),
                             color = contentColor,
                             textAlign = TextAlign.Center,
-                            fontWeight = FontWeight.Bold,
+                            fontWeight = FontWeight.Medium,
                             style = MaterialTheme.typography.subtitle2,
                             maxLines = 1,
                             overflow = TextOverflow.Ellipsis

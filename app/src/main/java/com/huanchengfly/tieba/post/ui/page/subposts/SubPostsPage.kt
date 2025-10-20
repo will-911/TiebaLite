@@ -308,7 +308,7 @@ internal fun SubPostsContent(
                                 id = R.string.title_sub_posts,
                                 it.get { floor })
                         } ?: stringResource(id = R.string.title_sub_posts_default),
-                            fontWeight = FontWeight.Bold, style = MaterialTheme.typography.h6)
+                            fontWeight = FontWeight.Medium, style = MaterialTheme.typography.h6)
                     },
                     navigationIcon = {
                         IconButton(onClick = onNavigateUp) {

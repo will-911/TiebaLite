@@ -203,7 +203,7 @@ fun BackNavigationIcon(onBackPressed: () -> Unit) {
     "Use the non deprecated overload",
     ReplaceWith(
         """TitleCentredToolbar(
-                title = { Text(text = title, fontWeight = FontWeight.Bold, style = MaterialTheme.typography.h6) },
+                title = { Text(text = title, fontWeight = FontWeight.Medium, style = MaterialTheme.typography.h6) },
                 modifier = modifier,
                 insets = insets,
                 navigationIcon = navigationIcon,
@@ -274,7 +274,7 @@ fun TitleCentredToolbar(
                         verticalAlignment = Alignment.CenterVertically,
                         horizontalArrangement = Arrangement.Center
                     ) {
-                        ProvideTextStyle(value = MaterialTheme.typography.h6.copy(fontWeight = FontWeight.Bold)) {
+                        ProvideTextStyle(value = MaterialTheme.typography.h6.copy(fontWeight = FontWeight.Medium)) {
                             ProvideContentColor(color = ExtendedTheme.colors.onTopBar) {
                                 title()
                             }
@@ -319,7 +319,7 @@ fun Toolbar(
         topBar = {
             TopAppBar(
                 title = {
-                    ProvideTextStyle(value = MaterialTheme.typography.h6.copy(fontWeight = FontWeight.Bold)) {
+                    ProvideTextStyle(value = MaterialTheme.typography.h6.copy(fontWeight = FontWeight.Medium)) {
                         ProvideContentColor(color = contentColor, content = title)
                     }
                 },

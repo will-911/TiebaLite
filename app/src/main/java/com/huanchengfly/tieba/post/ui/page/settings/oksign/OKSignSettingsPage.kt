@@ -185,7 +185,7 @@ fun OKSignSettingsPage(
                     text = buildAnnotatedString {
                         withStyle(
                             style = SpanStyle(
-                                fontWeight = FontWeight.Bold
+                                fontWeight = FontWeight.Medium
                             )
                         ) {
                             append(stringResource(id = R.string.tip_start))

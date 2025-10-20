@@ -78,7 +78,7 @@ fun <ItemValue> ListSinglePicker(
                             text = itemTitles[it],
                             modifier = Modifier.weight(1f),
                             fontSize = 16.sp,
-                            fontWeight = FontWeight.Bold,
+                            fontWeight = FontWeight.Medium,
                             minLength = itemTitleMaxWidth
                         )
                         if (selectedPosition == it) {

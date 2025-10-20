@@ -404,7 +404,7 @@ fun SubPostList.getContentText(threadAuthorId: Long? = null): AnnotatedString {
             withStyle(
                 SpanStyle(
                     color = accentColor,
-                    fontWeight = FontWeight.Bold
+                    fontWeight = FontWeight.Medium
                 )
             ) {
                 append(

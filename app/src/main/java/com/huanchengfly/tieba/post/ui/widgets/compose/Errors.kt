@@ -66,7 +66,7 @@ fun TipScreen(
             ProvideTextStyle(
                 value = MaterialTheme.typography.h6.copy(
                     color = ExtendedTheme.colors.text,
-                    fontWeight = FontWeight.Bold,
+                    fontWeight = FontWeight.Medium,
                     textAlign = TextAlign.Center
                 )
             ) {

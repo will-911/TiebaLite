@@ -430,7 +430,7 @@ fun Dialog(
                             .padding(horizontal = 24.dp)
                             .align(Alignment.CenterHorizontally)
                     ) {
-                        ProvideTextStyle(value = MaterialTheme.typography.h6.copy(fontWeight = FontWeight.Bold)) {
+                        ProvideTextStyle(value = MaterialTheme.typography.h6.copy(fontWeight = FontWeight.Medium)) {
                             title()
                         }
                     }

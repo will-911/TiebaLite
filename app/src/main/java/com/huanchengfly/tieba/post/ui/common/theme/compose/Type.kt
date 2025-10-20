@@ -16,7 +16,7 @@ val Typography = Typography(
         fontSize = 16.sp
     ),
     subtitle1 = DefaultTextStyle.copy(
-        fontWeight = FontWeight.Bold,
+        fontWeight = FontWeight.Medium,  // Bold → Medium 减轻字重
         fontSize = 16.sp,
         letterSpacing = 0.15.sp
     ),

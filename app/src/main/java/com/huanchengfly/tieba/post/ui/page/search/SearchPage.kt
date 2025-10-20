@@ -192,7 +192,7 @@ fun SearchPage(
                     text = {
                         Text(
                             text = stringResource(id = R.string.title_search_forum),
-                            fontWeight = if (it) FontWeight.Bold else FontWeight.Normal
+                            fontWeight = if (it) FontWeight.Medium else FontWeight.Normal
                         )
                     },
                     content = { SearchForumPage(keyword = keyword) }
@@ -202,7 +202,7 @@ fun SearchPage(
                     text = {
                         Text(
                             text = stringResource(id = R.string.title_search_thread),
-                            fontWeight = if (it) FontWeight.Bold else FontWeight.Normal
+                            fontWeight = if (it) FontWeight.Medium else FontWeight.Normal
                         )
                     },
                     content = {
@@ -225,7 +225,7 @@ fun SearchPage(
                     text = {
                         Text(
                             text = stringResource(id = R.string.title_search_user),
-                            fontWeight = if (it) FontWeight.Bold else FontWeight.Normal
+                            fontWeight = if (it) FontWeight.Medium else FontWeight.Normal
                         )
                     },
                     content = { SearchUserPage(keyword = keyword) }
@@ -532,7 +532,7 @@ private fun SearchHistoryList(
                             id = if (expanded) R.string.button_expand_less_history else R.string.button_expand_more_history
                         ),
                         style = MaterialTheme.typography.button,
-                        fontWeight = FontWeight.Bold
+                        fontWeight = FontWeight.Medium
                     )
                 }
             }

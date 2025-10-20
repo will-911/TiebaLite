@@ -70,7 +70,7 @@ fun CustomSettingsPage(
                 title = {
                     Text(
                         text = stringResource(id = R.string.title_settings_custom),
-                        fontWeight = FontWeight.Bold, style = MaterialTheme.typography.h6
+                        fontWeight = FontWeight.Medium, style = MaterialTheme.typography.h6
                     )
                 },
                 navigationIcon = {

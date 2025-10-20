@@ -43,7 +43,7 @@ fun ListMenuItem(
         Text(
             text = text,
             fontSize = 14.sp,
-            fontWeight = FontWeight.Bold,
+            fontWeight = FontWeight.Medium,
             maxLines = 1,
             modifier = Modifier.weight(1f),
         )

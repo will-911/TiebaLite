@@ -219,7 +219,7 @@ private fun ForumItemPlaceholder(
                 .align(CenterVertically)
                 .placeholder(visible = true, color = ExtendedTheme.colors.chip),
             fontSize = 15.sp,
-            fontWeight = FontWeight.Bold,
+            fontWeight = FontWeight.Medium,
             maxLines = 1,
         )
         Spacer(modifier = Modifier.width(8.dp))
@@ -238,7 +238,7 @@ private fun ForumItemPlaceholder(
                 text = "0",
                 color = ExtendedTheme.colors.onChip,
                 fontSize = 11.sp,
-                fontWeight = FontWeight.Bold,
+                fontWeight = FontWeight.Medium,
                 modifier = Modifier.align(Center)
             )
         }
@@ -311,7 +311,7 @@ private fun ForumItemContent(
                 .weight(1f)
                 .align(CenterVertically),
             fontSize = 15.sp,
-            fontWeight = FontWeight.Bold,
+            fontWeight = FontWeight.Medium,
             maxLines = 1,
         )
         Spacer(modifier = Modifier.width(8.dp))
@@ -332,7 +332,7 @@ private fun ForumItemContent(
                     text = "Lv.${item.levelId}",
                     color = ExtendedTheme.colors.onChip,
                     fontSize = 11.sp,
-                    fontWeight = FontWeight.Bold,
+                    fontWeight = FontWeight.Medium,
                     modifier = Modifier.align(CenterVertically)
                 )
                 if (item.isSign) {
@@ -597,7 +597,7 @@ fun HomePage(
                                                     Text(
                                                         text = it.title,
                                                         fontSize = 12.sp,
-                                                        fontWeight = FontWeight.Bold,
+                                                        fontWeight = FontWeight.Medium,
                                                         modifier = Modifier.padding(end = 4.dp)
                                                     )
                                                 }

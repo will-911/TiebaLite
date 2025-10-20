@@ -305,7 +305,7 @@ fun AppThemePage(
                 title = {
                     Text(
                         text = stringResource(id = R.string.title_theme),
-                        fontWeight = FontWeight.Bold, style = MaterialTheme.typography.h6
+                        fontWeight = FontWeight.Medium, style = MaterialTheme.typography.h6
                     )
                 },
                 navigationIcon = {
@@ -362,7 +362,7 @@ fun AppThemePage(
                                 )
                                 Text(
                                     text = stringResource(id = R.string.title_dynamic_theme),
-                                    fontWeight = FontWeight.Bold,
+                                    fontWeight = FontWeight.Medium,
                                     color = ExtendedTheme.colors.windowBackground
                                 )
                             }
@@ -407,7 +407,7 @@ fun AppThemePage(
                                     )
                                     Text(
                                         text = stringResource(id = R.string.title_custom_color),
-                                        fontWeight = FontWeight.Bold
+                                        fontWeight = FontWeight.Medium
                                     )
                                 }
                             }
@@ -456,7 +456,7 @@ fun AppThemePage(
                                         )
                                         Text(
                                             text = stringResource(id = R.string.title_theme_translucent),
-                                            fontWeight = FontWeight.Bold
+                                            fontWeight = FontWeight.Medium
                                         )
                                     }
                                 }

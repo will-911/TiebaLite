@@ -142,7 +142,7 @@ fun BlockListPage(
                 title = {
                     Text(
                         text = stringResource(id = R.string.title_block_list),
-                        fontWeight = FontWeight.Bold, style = MaterialTheme.typography.h6
+                        fontWeight = FontWeight.Medium, style = MaterialTheme.typography.h6
                     )
                 },
                 navigationIcon = {
@@ -206,7 +206,7 @@ fun BlockListPage(
                         Text(
                             text = stringResource(id = R.string.title_add_black),
                             fontSize = 12.sp,
-                            fontWeight = FontWeight.Bold
+                            fontWeight = FontWeight.Medium
                         )
                     }
                     Row(
@@ -229,7 +229,7 @@ fun BlockListPage(
                         Text(
                             text = stringResource(id = R.string.title_add_white),
                             fontSize = 12.sp,
-                            fontWeight = FontWeight.Bold
+                            fontWeight = FontWeight.Medium
                         )
                     }
                 }

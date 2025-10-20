@@ -459,7 +459,7 @@ internal fun ReplyPageContent(
             Text(
                 text = "$topTitle",
                 modifier = Modifier.weight(1f),
-                fontWeight = FontWeight.Bold
+                fontWeight = FontWeight.Medium
             )
             Text(
                 text = "$textLength",

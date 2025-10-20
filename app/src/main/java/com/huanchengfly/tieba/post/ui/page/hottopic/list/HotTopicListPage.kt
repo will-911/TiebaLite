@@ -87,7 +87,7 @@ private fun TopicImage(
         Text(
             text = "${index + 1}",
             fontSize = 10.sp,
-            fontWeight = FontWeight.Bold,
+            fontWeight = FontWeight.Medium,
             color = MaterialTheme.colors.background,
             fontFamily = FontFamily(
                 Typeface.createFromAsset(
@@ -180,7 +180,7 @@ fun HotTopicListPage(
                 title = {
                     Text(
                         text = stringResource(id = R.string.title_hot_message_list),
-                        fontWeight = FontWeight.Bold, style = MaterialTheme.typography.h6
+                        fontWeight = FontWeight.Medium, style = MaterialTheme.typography.h6
                     )
                 },
                 navigationIcon = {

@@ -142,7 +142,7 @@ private fun InfoCard(
             Text(
                 text = userName,
                 fontSize = 20.sp,
-                fontWeight = FontWeight.Bold,
+                fontWeight = FontWeight.Medium,
                 color = ExtendedTheme.colors.text,
                 modifier = Modifier
                     .fillMaxWidth()
@@ -208,7 +208,7 @@ private fun LoginTipCard(modifier: Modifier = Modifier) {
             Text(
                 text = stringResource(id = R.string.tip_login),
                 fontSize = 16.sp,
-                fontWeight = FontWeight.Bold,
+                fontWeight = FontWeight.Medium,
                 color = ExtendedTheme.colors.text,
                 modifier = Modifier
                     .fillMaxWidth(),

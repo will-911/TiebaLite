@@ -813,7 +813,7 @@ fun ForumPage(
                             }
 
                             val tabTextStyle = MaterialTheme.typography.button.copy(
-                                fontWeight = FontWeight.Bold,
+                                fontWeight = FontWeight.Medium,
                                 fontSize = 13.sp,
                                 letterSpacing = 0.sp
                             )
@@ -983,7 +983,7 @@ fun LoadingPlaceholder(
                                 highlight = PlaceholderHighlight.fade(),
                             ),
                             fontSize = 13.sp,
-                            fontWeight = FontWeight.Bold,
+                            fontWeight = FontWeight.Medium,
                             letterSpacing = 0.sp,
                             style = MaterialTheme.typography.button,
                         )

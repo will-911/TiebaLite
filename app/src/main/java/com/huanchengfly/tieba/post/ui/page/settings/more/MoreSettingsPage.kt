@@ -63,7 +63,7 @@ fun MoreSettingsPage(
                 title = {
                     Text(
                         text = stringResource(id = R.string.title_settings_more),
-                        fontWeight = FontWeight.Bold, style = MaterialTheme.typography.h6
+                        fontWeight = FontWeight.Medium, style = MaterialTheme.typography.h6
                     )
                 },
                 navigationIcon = {

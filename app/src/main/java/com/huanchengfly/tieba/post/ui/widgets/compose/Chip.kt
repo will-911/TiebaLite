@@ -63,7 +63,7 @@ fun Chip(
             }
             Text(
                 fontSize = 12.sp,
-                fontWeight = FontWeight.Bold,
+                fontWeight = FontWeight.Medium,
                 text = text
             )
             appendIcon?.let {

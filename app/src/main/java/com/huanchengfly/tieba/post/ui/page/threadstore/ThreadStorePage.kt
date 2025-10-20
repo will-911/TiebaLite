@@ -72,7 +72,7 @@ import com.ramcosta.composedestinations.annotation.DeepLink
 import com.ramcosta.composedestinations.annotation.Destination
 import com.ramcosta.composedestinations.navigation.DestinationsNavigator
 
-private val UpdateTipTextStyle = TextStyle(fontWeight = FontWeight.Bold, fontSize = 10.sp)
+private val UpdateTipTextStyle = TextStyle(fontWeight = FontWeight.Medium, fontSize = 10.sp)
 
 @OptIn(ExperimentalMaterialApi::class, ExperimentalTextApi::class)
 @Destination(
@@ -136,7 +136,7 @@ fun ThreadStorePage(
                 title = {
                     Text(
                         text = stringResource(id = R.string.title_my_collect),
-                        fontWeight = FontWeight.Bold, style = MaterialTheme.typography.h6
+                        fontWeight = FontWeight.Medium, style = MaterialTheme.typography.h6
                     )
                 },
                 navigationIcon = {

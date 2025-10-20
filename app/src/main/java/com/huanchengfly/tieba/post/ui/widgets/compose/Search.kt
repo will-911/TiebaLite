@@ -132,7 +132,7 @@ fun MainPostCard(
         HighlightText(
             text = titleString,
             style = MaterialTheme.typography.subtitle2,
-            fontWeight = FontWeight.Bold,
+            fontWeight = FontWeight.Medium,
             maxLines = 2,
             overflow = TextOverflow.Ellipsis,
             highlightKeywords = (keyword?.split(" ") ?: emptyList()).toImmutableList()

@@ -699,7 +699,7 @@ private fun UserProfileTabRow(
     val coroutineScope = rememberCoroutineScope()
 
     val tabTextStyle = MaterialTheme.typography.button.copy(
-        fontWeight = FontWeight.Bold,
+        fontWeight = FontWeight.Medium,
         fontSize = 13.sp,
         letterSpacing = 0.sp
     )
@@ -863,7 +863,7 @@ private fun UserProfileDetail(
             style = MaterialTheme.typography.h6,
             maxLines = 1,
             overflow = TextOverflow.Ellipsis,
-            fontWeight = FontWeight.Bold
+            fontWeight = FontWeight.Medium
         )
         ProvideTextStyle(value = MaterialTheme.typography.body2) {
             Row(
@@ -882,7 +882,7 @@ private fun UserProfileDetail(
                     Text(
                         text = user.get { concern_num }.getShortNumString(),
                         color = ExtendedTheme.colors.text,
-                        fontWeight = FontWeight.Bold
+                        fontWeight = FontWeight.Medium
                     )
                 }
                 HorizontalDivider(modifier = Modifier.fillMaxHeight())
@@ -897,7 +897,7 @@ private fun UserProfileDetail(
                     Text(
                         text = user.get { fans_num }.getShortNumString(),
                         color = ExtendedTheme.colors.text,
-                        fontWeight = FontWeight.Bold
+                        fontWeight = FontWeight.Medium
                     )
                 }
                 HorizontalDivider(modifier = Modifier.fillMaxHeight())
@@ -912,7 +912,7 @@ private fun UserProfileDetail(
                     Text(
                         text = user.get { total_agree_num }.getShortNumString(),
                         color = ExtendedTheme.colors.text,
-                        fontWeight = FontWeight.Bold
+                        fontWeight = FontWeight.Medium
                     )
                 }
             }

@@ -102,7 +102,7 @@ private fun TabText(
 ) {
     val style = MaterialTheme.typography.button.copy(
         letterSpacing = 0.75.sp,
-        fontWeight = if (selected) FontWeight.Bold else FontWeight.Normal,
+        fontWeight = if (selected) FontWeight.Medium else FontWeight.Normal,
         textAlign = TextAlign.Center
     )
     Text(text = text, style = style)

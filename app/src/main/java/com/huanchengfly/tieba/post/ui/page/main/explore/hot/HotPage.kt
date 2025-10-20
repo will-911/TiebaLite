@@ -146,7 +146,7 @@ fun HotPage(
                                 ) {
                                     Text(
                                         text = "${index + 1}",
-                                        fontWeight = FontWeight.Bold,
+                                        fontWeight = FontWeight.Medium,
                                         color = when (index) {
                                             0 -> RedA700
                                             1 -> OrangeA700
@@ -207,7 +207,7 @@ fun HotPage(
                                     ) {
                                         Text(
                                             text = stringResource(id = R.string.tip_more_topic),
-                                            fontWeight = FontWeight.Bold
+                                            fontWeight = FontWeight.Medium
                                         )
                                         Icon(
                                             imageVector = Icons.Rounded.KeyboardArrowRight,
@@ -340,7 +340,7 @@ fun HotPage(
                                     Text(
                                         text = "${index + 1}",
                                         color = color,
-                                        fontWeight = FontWeight.Bold,
+                                        fontWeight = FontWeight.Medium,
                                         fontSize = 16.sp
                                     )
                                     Text(
@@ -391,7 +391,7 @@ private fun ThreadListItemPlaceholder() {
         ) {
             Text(
                 text = "1",
-                fontWeight = FontWeight.Bold,
+                fontWeight = FontWeight.Medium,
                 fontSize = 10.sp,
                 color = ExtendedTheme.colors.background,
                 modifier = Modifier
@@ -439,7 +439,7 @@ private fun ThreadListTab(
             .debounceClickable(onClick = onSelected)
             .padding(vertical = 4.dp),
         fontSize = 12.sp,
-        fontWeight = FontWeight.Bold
+        fontWeight = FontWeight.Medium
     )
 }
 
@@ -453,7 +453,7 @@ private fun ChipHeader(
     Text(
         color = if (invert) MaterialTheme.colors.onSecondary else ExtendedTheme.colors.onChip,
         fontSize = 12.sp,
-        fontWeight = FontWeight.Bold,
+        fontWeight = FontWeight.Medium,
         text = text,
         modifier = Modifier
             .clip(RoundedCornerShape(100))

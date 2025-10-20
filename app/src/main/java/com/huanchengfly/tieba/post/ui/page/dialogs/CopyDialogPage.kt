@@ -94,7 +94,7 @@ private fun CopyTextPageContent(
                     Text(
                         text = stringResource(id = R.string.title_copy),
                         style = MaterialTheme.typography.h6,
-                        fontWeight = FontWeight.Bold
+                        fontWeight = FontWeight.Medium
                     )
                     Text(
                         text = stringResource(id = R.string.tip_copy_text),

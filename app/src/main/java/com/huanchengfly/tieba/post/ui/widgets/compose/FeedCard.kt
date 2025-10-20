@@ -278,7 +278,7 @@ fun ThreadContent(
 ) {
     val content = buildAnnotatedString {
         if (showTitle) {
-            withStyle(style = SpanStyle(fontWeight = FontWeight.Bold)) {
+            withStyle(style = SpanStyle(fontWeight = FontWeight.Medium)) {
                 if (isGood) {
                     withStyle(style = SpanStyle(color = ExtendedTheme.colors.accent)) {
                         append(stringResource(id = R.string.tip_good))
@@ -325,7 +325,7 @@ fun FeedCardPlaceholder() {
                 text = "TitlePlaceholder",
                 style = MaterialTheme.typography.subtitle1,
                 fontSize = 15.sp,
-                fontWeight = FontWeight.Bold,
+                fontWeight = FontWeight.Medium,
                 maxLines = 1,
                 overflow = TextOverflow.Ellipsis,
                 modifier = Modifier

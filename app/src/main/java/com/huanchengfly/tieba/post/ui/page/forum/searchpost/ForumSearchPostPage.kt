@@ -177,7 +177,7 @@ private fun SearchHistoryList(
                             id = if (expanded) R.string.button_expand_less_history else R.string.button_expand_more_history
                         ),
                         style = MaterialTheme.typography.button,
-                        fontWeight = FontWeight.Bold
+                        fontWeight = FontWeight.Medium
                     )
                 }
             }
@@ -520,7 +520,7 @@ fun ForumSearchPostPage(
                                                         text = sortTypeMapping[currentSortType]
                                                             ?: "",
                                                         fontSize = 13.sp,
-                                                        fontWeight = FontWeight.Bold
+                                                        fontWeight = FontWeight.Medium
                                                     )
                                                     Icon(
                                                         imageVector = Icons.Rounded.ArrowDropDown,
@@ -542,7 +542,7 @@ fun ForumSearchPostPage(
                                                             text = filterTypeMapping[type] ?: "",
                                                             fontSize = 13.sp,
                                                             fontWeight = if (type == currentFilterType) {
-                                                                FontWeight.Bold
+                                                                FontWeight.Medium
                                                             } else {
                                                                 FontWeight.Normal
                                                             },

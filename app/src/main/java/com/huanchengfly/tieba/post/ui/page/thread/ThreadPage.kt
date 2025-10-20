@@ -1430,7 +1430,7 @@ fun ThreadPage(
 //                                                    R.string.title_thread_header,
 //                                                    "${thread?.get { replyNum - 1 } ?: 0}"),
 //                                                fontSize = 13.sp,
-//                                                fontWeight = FontWeight.Bold,
+//                                                fontWeight = FontWeight.Medium,
 //                                                color = ExtendedTheme.colors.text,
 //                                                modifier = Modifier.padding(horizontal = 8.dp),
 //                                            )

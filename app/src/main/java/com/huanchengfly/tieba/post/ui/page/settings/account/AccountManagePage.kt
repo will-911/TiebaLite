@@ -65,7 +65,7 @@ fun AccountManagePage(
                 title = {
                     Text(
                         text = stringResource(id = R.string.title_account_manage),
-                        fontWeight = FontWeight.Bold, style = MaterialTheme.typography.h6
+                        fontWeight = FontWeight.Medium, style = MaterialTheme.typography.h6
                     )
                 },
                 navigationIcon = {
@@ -146,7 +146,7 @@ fun AccountManagePage(
                     text = buildAnnotatedString {
                         withStyle(
                             style = SpanStyle(
-                                fontWeight = FontWeight.Bold
+                                fontWeight = FontWeight.Medium
                             )
                         ) {
                             append(stringResource(id = R.string.tip_start))
